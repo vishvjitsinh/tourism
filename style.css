@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flexbox;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./back.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+    background-attachment: fixed;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+   text-decoration: none;
+   color: white;
+   padding: 5px 20px ;
+   border: 1px transparent white;
+   border-radius: 10%; 
+   transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 150px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul li.home a {
+    background-color: white;
+    background-size: 100%;
+    color: black;
+}
+ul li.home a:hover{
+    background-color: black;
+    color: white;
+   
+}
+.title{
+   position: absolute;
+    top: 50%;
+    left: 27%;
+    /* transform: translate(-30%,-0%);  */
+    font-size: 40px;
+    color: white;
+}
+.vishu{
+    color: rgb(219, 241, 182);
+}
+.vish{
+    position: absolute;
+    top: 80%;
+    left: 6.5%;
+}
+.button{
+    font-size: 25px;
+     position: absolute;
+    top: 75%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+}
+.btn{
+ text-decoration: none;
+   color: white;
+   padding: 5px 40px ;
+   border: 1px solid white;
+   border-radius: 10%; 
+   transition: 0.5s ease;
+   border-spacing: 30px;
+}
+.tour{
+    padding-right: -20px;
+    color: white;
+    display: block;
+}
+
+
